@@ -28,8 +28,18 @@ To maintain a dictionary of students with their marks in five subjects, calculat
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+marks=eval(input())
+
+total={name: sum(scores) for name, scores in marks.items()}
+
+print(total)
+
+topper=max(total,key=total.get)
+
+print("Topper is: ",topper,"with marks = ",total[topper])
 
 ## OUTPUT
+<img width="1148" height="217" alt="image" src="https://github.com/user-attachments/assets/91f600c9-d2f5-41c2-bea7-fa14c6e02b8e" />
 
 ## RESULT
+Thus the Python program that helps determine the **top-performing student** based on the total marks across five subjects is executed and verified successfully.
