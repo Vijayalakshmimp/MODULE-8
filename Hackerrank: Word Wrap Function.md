@@ -1,34 +1,36 @@
-# 🔄 Hackerrank : # 📦 Python Word Wrap Function
+# 🔄 Hackerrank : # 📦 Python Program to Calculate Final Amount after Discount and CST
 
-This Python program defines a function that **wraps a long string into multiple lines**, ensuring each line does not exceed a specified width.
+This Python program defines a function that **calculates final amount after discount and CST**.
 
 ---
 
 ## 🎯 Aim
 
-To write a Python function that takes a long string and a specified width, and returns the string formatted with line breaks such that each line has **at most the given width**.
+To write a Python program that calculates the final amount paid for a microwave oven purchased at ₹25,000, after applying a 5% discount and adding 2% Central Sales Tax (CST).
 
 ---
 
 ## 🧠 Algorithm
-
-1. **Start** the program.
-2. Define a function `wrap(string, max_width)`:
-   - Create an empty list `wrapped_lines` to store parts of the string.
-   - Loop through the string using steps of `max_width`.
-   - In each iteration, extract a substring of length `max_width`.
-   - Append this substring to the list.
-3. Join the list with `\n` to create the final string.
-4. Return the result.
-5. **End** the program.
-
----
-
-
+1. Start
+2. Initialize the variable amount
+3. Calculate the discount
+4. Calculate the CST (Central Sales Tax):
+5. Compute the final amount
+6. Print the final amount to be paid.
+7. Stop
+8. 
 ## 🧪 Program
-Add Code Here
+amount=25000
 
-## Sample Output
+dis=amount*(5/100)
+
+cst=amount*(2/100)
+
+total_amount=amount-dis+cst
+
+print(total_amount)
+## Output
+<img width="374" height="166" alt="image" src="https://github.com/user-attachments/assets/92f29a61-8c7a-4347-ab72-bcca92046a1f" />
 
 ## Result
-
+Thus the Python program that calculates the final amount paid for a microwave oven purchased at ₹25,000, after applying a 5% discount and adding 2% Central Sales Tax (CST) is executed and verified successfully.
