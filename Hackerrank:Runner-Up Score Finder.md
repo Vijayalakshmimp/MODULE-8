@@ -1,27 +1,31 @@
-# 🏆 Hackerrank:Runner-Up Score Finder in Python
+# 🏆 Hackerrank:Python Program to Calculate Total and Percentage of Marks
 
 ## 🎯 AIM:
-To write a Python program that takes a list of scores from participants and finds the **runner-up score** (i.e., the second-highest score), eliminating any duplicates.
+To write a Python program that reads the marks of three subjects from the user, calculates the total marks, and computes the percentage for a student.
 
 ---
 
 ## 🧠 ALGORITHM:
-
-1. **Start**
-2. Create a variable `n` and get its value from the user (number of participants)
-3. Read the list of `n` scores from the user using `input().split()` and convert them to integers
-4. Store the scores in a list
-5. Use `set()` to remove any duplicate scores
-6. Convert the set back to a list and sort it in ascending order
-7. Print the second-last element of the sorted list (i.e., the runner-up score)
-8. **Stop**
+1. Start the program.
+2. Read three integer inputs from the user representing marks of three subjects.
+3. Calculate the total marks by adding the three subject marks.
+4. Compute the percentage 
+5. Display the total marks and percentage obtained by the student.
+6. End the program.
 
 ---
 
 ## 💻 PROGRAM:
+m1,m2,m3=int(input()),int(input()),int(input())
 
-ADD CODE HERE
+total=m1+m2+m3;
+
+percentage=(total/300)*100
+
+print("Total marks obtained is {} and the percentage obtained is {}".format(total,percentage))
 
 ## OUTPUT
+<img width="1129" height="201" alt="image" src="https://github.com/user-attachments/assets/75afa519-40ff-442e-a290-a8d8c6ea327e" />
 
 ## RESULT
+Thus, the program is executed successfully, and the total and percentage of the student’s marks are obtained.
